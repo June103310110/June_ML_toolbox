@@ -134,7 +134,7 @@ class plt_stat():
 
     lis = [0.25, 0.75]
     ay = [tmp.min()-0.2, tmp.max()+0.2]
-    for _ in range(2):
+    for _ in lis:
       cond = np.ceil(_*len(tmp))
       cond = [cond]*2
     

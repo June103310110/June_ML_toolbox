@@ -3,10 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-from pyngrok import ngrok
+
 
 def run_webApi():
-
+  from pyngrok import ngrok
   os.system('killall ngrok')
   print('Clear existed ngrok.')
   print('Run ngrok.')
